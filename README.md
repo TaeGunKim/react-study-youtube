@@ -34,3 +34,4 @@ youtube clone react site
 - 서버시작시 nodemon 사용으로, 소스수정하면 자동 재시작해서 반영
 - concurrently :: react서버와 node서버 동시실행(하나로)
 - npm install 할 때, --save를  넣어야 package.json에 dependency 에 적어준다.
+- (serverDriectory) npm install multer --save  
