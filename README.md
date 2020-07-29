@@ -1,23 +1,36 @@
-Boilerplate-mern-stack is being sponsored by the following tool <br />
-Please help to support us by taking a look and signing up to a free trial
-<a href="https://tracking.gitads.io/?repo=boilerplate-mern-stack"><img src="https://images.gitads.io/boilerplate-mern-stack" alt="GitAds"/></a> 
+youtube clone react site
 
 
-Hello, My Friends  
-Thank you for having interest in this repository ! 
+강의 및 공부 순서
 
-To use this application, 
+1. 비디오 업로드 FORM 만들기
 
-1. make dev.js file inside config folder 
-2. put mongoDB info into dev.js file 
-3. Type  " npm install " inside the root directory  ( Download Server Dependencies ) 
-4. Type " npm install " inside the client directory ( Download Front-end Dependencies )
+2. Multer로 노드서버에 비디오 저장하기
+
+3. ffmpeg으로 비디오 썸네일 생성
+
+4. 비디오 업로드
+
+5. 랜딩페이지에 비디오 리스트업
+
+6. 디테일페이지
+
+7. 디테일페이지 Side비디오 생성
+
+8. 구독기능
+
+9. 구동비디오페이지 (마이페이지)
+
+10. 댓글기능
+
+11. 좋아요싫어요기능
 
 
-If you have problem, feel free to ask me ^^ 
-
-You can watch the tutorial for this app.
-
-https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q?view_as=subscriber
 
 
+
+- raect hook나온이후로 functional component가 대세
+- rfce 단축어로 쉽게 생성가능 ( ESLINT, ES7 extention 다운 )
+- 서버시작시 nodemon 사용으로, 소스수정하면 자동 재시작해서 반영
+- concurrently :: react서버와 node서버 동시실행(하나로)
+- npm install 할 때, --save를  넣어야 package.json에 dependency 에 적어준다.
